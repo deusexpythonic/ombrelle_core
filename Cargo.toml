@@ -3,8 +3,9 @@ name = "ombrelle_core"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
-solana-program = "1.18.18"
-
 [lib]
 crate-type = ["cdylib", "lib"]
+name = "ombrelle_core"
+
+[dependencies]
+anchor-lang = "0.29.0"
